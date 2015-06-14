@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" antiResourceLocking="true">
+
+  <Resource
+    name="jdbc/product_information"
+    type="javax.sql.DataSource"
+    auth="Container"
+    username="root"
+    password="18519"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/product_information?autoReconnect=true">
+  </Resource>
+
+</Context>
